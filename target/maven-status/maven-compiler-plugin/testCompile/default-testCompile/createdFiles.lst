@@ -1,0 +1,10 @@
+stepDefinitions\HookSteps.class
+stepDefinitions\UserAdminFilterSteps.class
+stepDefinitions\SelectAppSteps.class
+stepDefinitions\LoginLogoutSteps.class
+stepDefinitions\UserAdminPermissionsSteps.class
+stepDefinitions\UsersCreationSteps.class
+stepDefinitions\UserAdministrationSteps.class
+stepDefinitions\DarkModeEnableDisableSteps.class
+stepDefinitions\EdgeLinkSteps.class
+runner\TestRunner.class

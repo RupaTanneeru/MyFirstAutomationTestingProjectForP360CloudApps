@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="16" passed="14" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-30T12:41:22 AEST" name="Suite" finished-at="2023-05-30T12:44:05 AEST" duration-ms="162755">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@21282ed8]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-05-30T12:41:22 AEST" name="Test" finished-at="2023-05-30T12:44:05 AEST" duration-ms="162755">
+      <class name="runner.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.TestRunner@21282ed8]" started-at="2023-05-30T12:41:22 AEST" name="setUpClass" finished-at="2023-05-30T12:41:23 AEST" duration-ms="423" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7c37508a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@21282ed8]" started-at="2023-05-30T12:41:23 AEST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-30T12:41:37 AEST" duration-ms="14196" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Dark Mode enable"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Dark Mode Enable and Disable  functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@21282ed8]" started-at="2023-05-30T12:41:23 AEST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-30T12:41:37 AEST" duration-ms="14056" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Dark Mode enable"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Dark Mode Enable and Disable  functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@21282ed8]" started-at="2023-05-30T12:41:37 AEST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-30T12:41:47 AEST" duration-ms="9897" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify user is able to click Edge Link in Home Page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Filter Search Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@21282ed8]" started-at="2023-05-30T12:41:37 AEST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-30T12:41:52 AEST" duration-ms="14934" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify user is able to click Edge Link in Home Page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Filter Search Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@21282ed8]" started-at="2023-05-30T12:41:47 AEST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-30T12:42:00 AEST" duration-ms="13846" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Sign in with valid credentials and Sign out"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Sign in and Sign Out functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@21282ed8]" started-at="2023-05-30T12:41:52 AEST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-30T12:42:05 AEST" duration-ms="13113" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Sign in with valid credentials and Sign out"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Sign in and Sign Out functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@21282ed8]" started-at="2023-05-30T12:42:00 AEST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-30T12:42:14 AEST" duration-ms="13599" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Select Application on Apps Tab"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Access Different Apps"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@21282ed8]" started-at="2023-05-30T12:42:05 AEST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-30T12:42:33 AEST" duration-ms="27765" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search User Using Filter"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Filter Search Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@21282ed8]" started-at="2023-05-30T12:42:14 AEST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-30T12:42:46 AEST" duration-ms="32043" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Reset Permission Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"section > button:nth-child(4)"}
+  (Session info: chrome=113.0.5672.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dfe95685b0fc1cae9177fcee268f4cf0, findChildElement {id=7D82A0CB88C48239A1718BF180221595_element_27, using=css selector, value=section > button:nth-child(4)}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\BABU~1.KRI\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:56121}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56121/devtoo..., se:cdpVersion: 113.0.5672.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dfe95685b0fc1cae9177fcee268f4cf0]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"section > button:nth-child(4)"}
+  (Session info: chrome=113.0.5672.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dfe95685b0fc1cae9177fcee268f4cf0, findChildElement {id=7D82A0CB88C48239A1718BF180221595_element_27, using=css selector, value=section > button:nth-child(4)}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\BABU~1.KRI\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:56121}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56121/devtoo..., se:cdpVersion: 113.0.5672.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dfe95685b0fc1cae9177fcee268f4cf0
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+at org.openqa.selenium.remote.RemoteWebElement.findElement(RemoteWebElement.java:227)
+at PageActions.UserAdminPageActions.clickPermissions(UserAdminPageActions.java:188)
+at stepDefinitions.UserAdminPermissionsSteps.clicks_permissions(UserAdminPermissionsSteps.java:29)
+at ✽.clicks permissions(file:///C:/Data/Bitbucket_Pentana360/src/test/resources/FeatureFiles/UserAdminResetPermissions.feature:12)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@21282ed8]" started-at="2023-05-30T12:42:33 AEST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-30T12:43:04 AEST" duration-ms="31699" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Enable/Disable Permission Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"section > button:nth-child(4)"}
+  (Session info: chrome=113.0.5672.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9f7b88bd8426cd97c9bd5205490afdbf, findChildElement {id=7A0AC6B0205344142676C17F59015819_element_26, using=css selector, value=section > button:nth-child(4)}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\BABU~1.KRI\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:56191}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56191/devtoo..., se:cdpVersion: 113.0.5672.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9f7b88bd8426cd97c9bd5205490afdbf]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"section > button:nth-child(4)"}
+  (Session info: chrome=113.0.5672.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9f7b88bd8426cd97c9bd5205490afdbf, findChildElement {id=7A0AC6B0205344142676C17F59015819_element_26, using=css selector, value=section > button:nth-child(4)}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\BABU~1.KRI\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:56191}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56191/devtoo..., se:cdpVersion: 113.0.5672.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9f7b88bd8426cd97c9bd5205490afdbf
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+at org.openqa.selenium.remote.RemoteWebElement.findElement(RemoteWebElement.java:227)
+at PageActions.UserAdminPageActions.clickPermissions(UserAdminPageActions.java:188)
+at stepDefinitions.UserAdminPermissionsSteps.clicks_permissions(UserAdminPermissionsSteps.java:29)
+at ✽.clicks permissions(file:///C:/Data/Bitbucket_Pentana360/src/test/resources/FeatureFiles/UserAdminUserPermission.feature:11)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@21282ed8]" started-at="2023-05-30T12:42:46 AEST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-30T12:43:12 AEST" duration-ms="26191" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify user is able to search and find user in the User Administration app using name"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Administration App"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@21282ed8]" started-at="2023-05-30T12:43:04 AEST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-30T12:43:30 AEST" duration-ms="26096" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify user is able to search and find user in the User Administration app using role"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Administration App"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@21282ed8]" started-at="2023-05-30T12:43:12 AEST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-30T12:43:38 AEST" duration-ms="26234" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify user is able to search and find user in the User Administration app using email"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Administration App"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@21282ed8]" started-at="2023-05-30T12:43:30 AEST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-30T12:43:57 AEST" duration-ms="26831" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify user is able to search and not find user in the User Administration app with no matching details"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Administration App"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@21282ed8]" started-at="2023-05-30T12:43:38 AEST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-30T12:43:51 AEST" duration-ms="12201" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify user is able to access User Administration app"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Administration App"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@21282ed8]" started-at="2023-05-30T12:43:51 AEST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-30T12:44:05 AEST" duration-ms="14218" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify admin is able to create user"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Administration App Create Users"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.TestRunner@21282ed8]" started-at="2023-05-30T12:44:05 AEST" name="tearDownClass" finished-at="2023-05-30T12:44:05 AEST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.TestRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
