@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\rupa.tanneeru\BitBucket_Projects\P360MavenMyFirstAutomaitonP360Project\src"/>
 			<item value="U:\Rupa_Automation_Documents\BitBucket_Projects\MyFirstAutomationTestingProjectForP360CloudApps"/>
 		</list>
 		<list key="projectNameTemplate">

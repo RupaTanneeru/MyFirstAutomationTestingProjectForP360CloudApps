@@ -35,6 +35,17 @@ public class UserAdminPage {
 	
 	@FindBy(xpath = "//div/ol/li[5]/ol/li[1]/p")     //*[@id="aec41f51d_abb3577f4_tab"]/app-org-structure/div/ol/li[5]/ol/li[1]/p
 	public WebElement getBranchTxt;
+	
+	
+	
+	public String generateRandomInt(int min, int max, int length)
+	{
+		int number = (int)(Math.random()*(max-min+1)+min);
+		String random = String.format("%0" + length + "d", number);
+		return random;
+		
+	}
+	
 		    
 	}
 

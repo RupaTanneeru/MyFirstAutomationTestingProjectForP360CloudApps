@@ -14,7 +14,11 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.aventstack.extentreports.gson.GsonExtentTypeAdapterBuilder.Builder;
 
+import GenericActions.GenericPageWaits;
+
 import java.time.Duration;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.List;
 
 import PageObjects.UserAdminPage;
@@ -24,17 +28,36 @@ public class UserAdminPageActions {
 	
 	private WebDriver driver;
 	UserAdminPage userAdminPage;
+	public static String date;
+	public static String randomLabel;
+	public static String name = "testAutomation";
+	GenericPageWaits pageWaits;
 	
 	
 	public UserAdminPageActions() {
 		this.driver = getDriver();
 		userAdminPage = new UserAdminPage();
-		
-	}
+		LocalDateTime dateToday = LocalDateTime.now();
+		DateTimeFormatter dateFormat = DateTimeFormatter.ofPattern("MMddyy");
+		date = dateToday.format(dateFormat);
+		randomLabel = "_"+ date +"_"+ userAdminPage.generateRandomInt(0, 10000, 4);
+ }
 	
 	
 	
 	public void enterSearchText(String searchText) throws InterruptedException {
+		Thread.sleep(5000);
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
+		wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("")));
+		WebElement searchbar = driver.findElement(By.cssSelector("input[type='search']"));
+		searchbar.sendKeys(searchText + Keys.RETURN);
+		
+		//wait for search loader
+		By.xpath(()
+		
+		
+		
+		
 		
 		
 	}
