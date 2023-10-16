@@ -24,7 +24,9 @@ public class UserAdminPermissionSteps {
 	}
 	
 	@When("user admin sarch for a user who has Permissions profile {string}")
-	public void user_admin_sarch_for_a_user_who_has_permissions_profile(String string) throws InterruptedException {
+	public void user_admin_sarch_for_a_user_who_has_permissions_profile(String searchText) throws InterruptedException {
+		userAdminPageActions.enterSearchText(searchText);
+		userAdminPageActions.
 	   
 	}
 

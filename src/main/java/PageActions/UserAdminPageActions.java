@@ -48,19 +48,23 @@ public class UserAdminPageActions {
 	public void enterSearchText(String searchText) throws InterruptedException {
 		Thread.sleep(5000);
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
-		wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("")));
+		wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("input[type='search']")));
 		WebElement searchbar = driver.findElement(By.cssSelector("input[type='search']"));
 		searchbar.sendKeys(searchText + Keys.RETURN);
 		
 		//wait for search loader
-		By.xpath(()
-		
-		
-		
-		
-		
+		By loader = By.xpath(("//section//p[text()='Loading']"));
+		Thread.sleep(1000);
+		wait.until(ExpectedConditions.invisibilityOfElementLocated(loader));
+		Thread.sleep(3000);
+				
+	}
+	
+	public void clickUser()
+	{
 		
 	}
+	
 	
 	public void clickUserAdminBtn()
 	{
