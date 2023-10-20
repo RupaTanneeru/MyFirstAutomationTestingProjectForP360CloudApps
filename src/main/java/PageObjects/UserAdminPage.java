@@ -33,8 +33,13 @@ public class UserAdminPage {
 	@FindBy(xpath = "//div/ol/li[5]/p")    
 	public WebElement getCompanyTxt;
 	
-	@FindBy(xpath = "//div/ol/li[5]/ol/li[1]/p")     //*[@id="aec41f51d_abb3577f4_tab"]/app-org-structure/div/ol/li[5]/ol/li[1]/p
+	@FindBy(xpath = "//div/ol/li[5]/ol/li[1]/p")     
 	public WebElement getBranchTxt;
+	
+	@FindBy(xpath = "//button[@id=\"6c9bd018-e0ce-4f66-99c2-00cad3a5e67a\"]")
+	public WebElement usrbtn;
+	
+	
 	
 	
 	

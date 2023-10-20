@@ -57,11 +57,14 @@ public class UserAdminPageActions {
 		Thread.sleep(1000);
 		wait.until(ExpectedConditions.invisibilityOfElementLocated(loader));
 		Thread.sleep(3000);
-				
+						
 	}
 	
-	public void clickUser()
+	public void clickUser() throws InterruptedException 
 	{
+		
+		userAdminPage.userBtn.click();
+		Thread.sleep(1000);
 		
 	}
 	
