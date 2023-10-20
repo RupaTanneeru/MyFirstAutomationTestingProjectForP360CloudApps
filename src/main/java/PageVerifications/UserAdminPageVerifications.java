@@ -1,6 +1,8 @@
 package PageVerifications;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 
 import static Utils.WebDriverManager.getDriver;
@@ -70,4 +72,16 @@ public class UserAdminPageVerifications {
 		Assert.assertEquals(searchBarTxt.toLowerCase(), expectedBranchName.toLowerCase());
 		
 	}
+	
+	
+	public void verifyPermissionPage() throws InterruptedException {
+		
+		Thread.sleep(2000);
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
+		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//h2[text()='Permissions']")));
+		WebElement permisiontext = driver.findElement(By.xpath("//h2[text()='Permissions']"));
+		Assert.assertTrue(permisiontext.isDisplayed());
+		
+	}
+	
 }

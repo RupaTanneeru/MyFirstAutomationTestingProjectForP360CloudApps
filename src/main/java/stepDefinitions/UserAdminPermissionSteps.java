@@ -25,6 +25,7 @@ public class UserAdminPermissionSteps {
 	
 	@When("user admin sarch for a user who has Permissions profile {string}")
 	public void user_admin_sarch_for_a_user_who_has_permissions_profile(String searchText) throws InterruptedException {
+		
 		userAdminPageActions.enterSearchText(searchText);
 		userAdminPageActions.clickUser();
 	   
@@ -33,16 +34,21 @@ public class UserAdminPermissionSteps {
 	@Then("user admin navigated to the user Permissions tab")
 	public void user_admin_navigated_to_the_user_permissions_tab() throws InterruptedException {
 		
+		userAdminPageActions.clickPermissions(); 
 	   
 	}
 
 	@Then("user admin will see mutiple user permissions profiles")
 	public void user_admin_will_see_mutiple_user_permissions_profiles() throws InterruptedException {
-	   
+		
+		userAdminPageVerifications.verifyPermissionPage();
+		
 	}
 
 	@Then("user admin can activates Accountant Profile setup to their user")
 	public void user_admin_can_activates_accountant_profile_setup_to_their_user() throws InterruptedException {
+		
+		
 	    
 	}
 

@@ -68,6 +68,26 @@ public class UserAdminPageActions {
 		
 	}
 	
+	public void clickPermissions() throws InterruptedException {
+		
+		WebElement shadowHost1 =  driver.findElement(By.cssSelector("ps-tabs[classes='sticky top-0']"));
+	    SearchContext shadowRoot1 =	shadowHost1.getShadowRoot();
+	    WebElement element =   shadowRoot1.findElement(By.cssSelector("section"));
+	    WebElement element1 =  element.findElement(By.cssSelector("section > button:nth-child(4)"));
+	    element1.click();
+	    
+		
+		
+	}
+	
+	
+	public void clickWorksheetService() throws InterruptedException {
+		
+		userAdminPage.workSheetService.click();
+		Thread.sleep(2000);
+		
+	}
+	
 	
 	public void clickUserAdminBtn()
 	{

@@ -27,8 +27,6 @@ public class UserAdminPage {
 	@FindBy(xpath = "//label[text()='Branch']/following-sibling::input")
 	public WebElement branchTxt;
 	
-	@FindBy(xpath = "//button[@id='74d6947c-d6b1-40e2-8697-0583d141a6c4']")
-	public WebElement userBtn;
 	
 	@FindBy(xpath = "//div/ol/li[5]/p")    
 	public WebElement getCompanyTxt;
@@ -37,10 +35,16 @@ public class UserAdminPage {
 	public WebElement getBranchTxt;
 	
 	@FindBy(xpath = "//button[@id='6c9bd018-e0ce-4f66-99c2-00cad3a5e67a']")
-	public WebElement usrbtn;
+	public WebElement userBtn;
 	
+	@FindBy(xpath= "//ol/li/button")
+	public WebElement workSheetService; 
 	
+	@FindBy(xpath= "//ps-input[@name='accountingGrossProfit' and @label='View']")
+	public WebElement AccountGpButton;
 	
+	@FindBy(xpath= "//ps-input[@name='actualDeliveryDate' and label ='View']")
+	public WebElement ActualDeliveryButton;
 	
 	
 	public String generateRandomInt(int min, int max, int length)
