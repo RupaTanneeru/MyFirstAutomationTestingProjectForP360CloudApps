@@ -48,22 +48,29 @@ public class UserAdminPermissionSteps {
 	@Then("user admin can activates Accountant Profile setup to their user")
 	public void user_admin_can_activates_accountant_profile_setup_to_their_user() throws InterruptedException {
 		
-		
+		userAdminPageActions.Set_Accountant_Permission_profile_toTheUser();
 	    
 	}
 
 	@Then("user admin click on worksheet service can see a list of default fields")
 	public void user_admin_click_on_worksheet_service_can_see_a_list_of_default_fields() throws InterruptedException {
+		
+		userAdminPageActions.clickWorksheetService();
 	    
 	}
 
-	@Then("user admin can give permissions to enabled to view AccountingGP and ActualDeliveryDate fields to the user")
-	public void user_admin_can_give_permissions_to_enabled_to_view_accounting_gp_and_actual_delivery_date_fields_to_the_user() throws InterruptedException {
-	    
-	}
+
+   @Then("user admin can give permissions to enabled to view FinanceGP and FinanceIncome and FiannceType and FinacedAmount fields to the user")
+   public void user_admin_can_give_permissions_to_enabled_to_view_finance_gp_and_finance_income_and_fiannce_type_and_finaced_amount_fields_to_the_user() throws InterruptedException {
+  
+	   
+    }
+
 
 	@Then("user admin click on back navigation of worksheet service")
 	public void user_admin_click_on_back_navigation_of_worksheet_service() throws InterruptedException {
+		
+		
 	 
 	}
 

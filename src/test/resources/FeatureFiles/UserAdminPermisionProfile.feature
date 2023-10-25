@@ -14,7 +14,7 @@ Feature: Profile Permission Functionality
   And user admin will see mutiple user permissions profiles
   And user admin can activates Accountant Profile setup to their user
   And user admin click on worksheet service can see a list of default fields
-  And user admin can give permissions to enabled to view AccountingGP and ActualDeliveryDate fields to the user  
+  And user admin can give permissions to enabled to view FinanceGP and FinanceIncome and FiannceType and FinacedAmount fields to the user  
   And user admin click on back navigation of worksheet service
   When user admin click on Actions menu to reset permissions
   Then user admin should see fields AccountingGP and ActualDeliveryDate are reset back with origional settings

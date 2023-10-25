@@ -75,18 +75,50 @@ public class UserAdminPageActions {
 	    WebElement element =   shadowRoot1.findElement(By.cssSelector("section"));
 	    WebElement element1 =  element.findElement(By.cssSelector("section > button:nth-child(4)"));
 	    element1.click();
-	    
+	    		
+	}
+	
+	public void enableAccountingGp() throws InterruptedException {
 		
+		userAdminPage.AccountGpButton.click();
+		Thread.sleep(1000);
+	}
+	
+	public void enableActualDelivery() throws InterruptedException {
 		
+		userAdminPage.ActualDeliveryButton.click();
+		Thread.sleep(1000);
 	}
 	
 	
-	public void clickWorksheetService() throws InterruptedException {
-		
+	public void clickWorksheetService() throws InterruptedException {		
 		userAdminPage.workSheetService.click();
 		Thread.sleep(2000);
 		
 	}
+	
+	public void Set_Accountant_Permission_profile_toTheUser() throws InterruptedException {
+		
+		
+		Thread.sleep(2000);
+		WebElement shadowHost1 =  driver.findElement(By.cssSelector("ps-input[label='Accountant']"));
+		WebElement element  = shadowHost1.findElement(By.cssSelector("input"));
+		
+		if(element.isSelected())
+		{
+			System.out.println("Radiobutton is Selected");
+		}
+					
+		else
+		{
+			System.out.println("Radiobutton is not Selected");
+			element.click();
+		}
+		
+	}
+	
+	
+	 
 	
 	
 	public void clickUserAdminBtn()

@@ -84,4 +84,47 @@ public class UserAdminPageVerifications {
 		
 	}
 	
+	
+	public void verifyFinanceGP() throws InterruptedException {
+		
+		Thread.sleep(2000);
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
+		wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("ps-inputgroup[label='Finance GP']")));
+		WebElement FinanceGPButton = driver.findElement(By.cssSelector("ps-inputgroup[label='Finance GP']"));
+		WebElement FinanceGPChecked = FinanceGPButton.findElement(By.cssSelector("//ps-input[@name='estimatedTotalFinanceAndInsuranceIncome' and @label='View']"));
+		Assert.assertTrue(FinanceGPChecked.isSelected());
+	}
+	
+
+	public void verifyFinanceIncome() throws InterruptedException {
+		
+		Thread.sleep(2000);
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
+		wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("ps-inputgroup[label='Finance GP']")));
+		WebElement FinanceGPButton = driver.findElement(By.cssSelector("ps-inputgroup[label='Finance GP']"));
+		WebElement FinanceGPChecked = FinanceGPButton.findElement(By.cssSelector("//ps-input[@name='estimatedTotalFinanceAndInsuranceIncome' and @label='View']"));
+		Assert.assertTrue(FinanceGPChecked.isSelected());
+	}
+	
+    public void verifyFinanceType() throws InterruptedException {
+		
+		Thread.sleep(2000);
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
+		wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("ps-inputgroup[label='Finance GP']")));
+		WebElement FinanceGPButton = driver.findElement(By.cssSelector("ps-inputgroup[label='Finance GP']"));
+		WebElement FinanceGPChecked = FinanceGPButton.findElement(By.cssSelector("//ps-input[@name='estimatedTotalFinanceAndInsuranceIncome' and @label='View']"));
+		Assert.assertTrue(FinanceGPChecked.isSelected());
+	}
+	
+	
+    public void verifyFinanceAmount() throws InterruptedException {
+		
+		Thread.sleep(2000);
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
+		wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("ps-inputgroup[label='Finance GP']")));
+		WebElement FinanceGPButton = driver.findElement(By.cssSelector("ps-inputgroup[label='Finance GP']"));
+		WebElement FinanceGPChecked = FinanceGPButton.findElement(By.cssSelector("//ps-input[@name='estimatedTotalFinanceAndInsuranceIncome' and @label='View']"));
+		Assert.assertTrue(FinanceGPChecked.isSelected());
+	}
+    
 }
