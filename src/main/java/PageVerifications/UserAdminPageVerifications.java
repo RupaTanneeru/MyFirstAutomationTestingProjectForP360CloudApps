@@ -117,7 +117,7 @@ public class UserAdminPageVerifications {
 	}
 	
 	
-    public void verifyFinanceAmount() throws InterruptedException {
+    public void verifyFinancedAmount() throws InterruptedException {
 		
 		Thread.sleep(2000);
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
