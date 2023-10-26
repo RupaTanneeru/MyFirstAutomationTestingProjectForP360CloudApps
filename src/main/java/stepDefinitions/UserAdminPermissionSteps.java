@@ -63,7 +63,7 @@ public class UserAdminPermissionSteps {
    @Then("user admin can give permissions to enabled to view FinanceGP and FinanceIncome and FiannceType and FinacedAmount fields to the user")
    public void user_admin_can_give_permissions_to_enabled_to_view_finance_gp_and_finance_income_and_fiannce_type_and_finaced_amount_fields_to_the_user() throws InterruptedException {
   
-	   
+	   userAdminPageVerifications.verifyFinanceGP();
     }
 
 

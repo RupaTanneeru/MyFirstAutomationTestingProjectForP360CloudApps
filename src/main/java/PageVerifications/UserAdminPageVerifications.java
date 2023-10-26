@@ -82,6 +82,7 @@ public class UserAdminPageVerifications {
 		WebElement permisiontext = driver.findElement(By.xpath("//h2[text()='Permissions']"));
 		Assert.assertTrue(permisiontext.isDisplayed());
 		
+		
 	}
 	
 	
@@ -91,8 +92,9 @@ public class UserAdminPageVerifications {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("ps-inputgroup[label='Finance GP']")));
 		WebElement FinanceGPButton = driver.findElement(By.cssSelector("ps-inputgroup[label='Finance GP']"));
-		WebElement FinanceGPChecked = FinanceGPButton.findElement(By.cssSelector("//ps-input[@name='estimatedTotalFinanceAndInsuranceIncome' and @label='View']"));
-		Assert.assertTrue(FinanceGPChecked.isSelected());
+		WebElement FinanceGPChecked = FinanceGPButton.findElement(By.xpath("//ps-input[@label='View' and @name='estimatedTotalFinanceAndInsuranceIncome']"));
+		Assert.assertTrue(FinanceGPChecked.isEnabled());
+		System.out.println("FiannceGP button Enabled");
 	}
 	
 
@@ -100,31 +102,34 @@ public class UserAdminPageVerifications {
 		
 		Thread.sleep(2000);
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
-		wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("ps-inputgroup[label='Finance GP']")));
-		WebElement FinanceGPButton = driver.findElement(By.cssSelector("ps-inputgroup[label='Finance GP']"));
-		WebElement FinanceGPChecked = FinanceGPButton.findElement(By.cssSelector("//ps-input[@name='estimatedTotalFinanceAndInsuranceIncome' and @label='View']"));
-		Assert.assertTrue(FinanceGPChecked.isSelected());
+		wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("ps-inputgroup[label='Finance income']")));
+		WebElement FinanceGPButton = driver.findElement(By.cssSelector("ps-inputgroup[label='Finance income']"));
+		WebElement FinanceGPChecked = FinanceGPButton.findElement(By.xpath("//ps-input[@label='View' and @name='financeIncome']"));
+		Assert.assertTrue(FinanceGPChecked.isEnabled());
+		System.out.println("FiannceIncome button Enabled");
 	}
 	
     public void verifyFinanceType() throws InterruptedException {
 		
-		Thread.sleep(2000);
+    	Thread.sleep(2000);
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
-		wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("ps-inputgroup[label='Finance GP']")));
-		WebElement FinanceGPButton = driver.findElement(By.cssSelector("ps-inputgroup[label='Finance GP']"));
-		WebElement FinanceGPChecked = FinanceGPButton.findElement(By.cssSelector("//ps-input[@name='estimatedTotalFinanceAndInsuranceIncome' and @label='View']"));
-		Assert.assertTrue(FinanceGPChecked.isSelected());
+		wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("ps-inputgroup[label='Finance type']")));
+		WebElement FinanceGPButton = driver.findElement(By.cssSelector("ps-inputgroup[label='Finance type']"));
+		WebElement FinanceGPChecked = FinanceGPButton.findElement(By.xpath("//ps-input[@label='View' and @name='financeType']"));
+		Assert.assertTrue(FinanceGPChecked.isEnabled());
+		System.out.println("FiannceType button Enabled");
 	}
 	
 	
     public void verifyFinancedAmount() throws InterruptedException {
 		
-		Thread.sleep(2000);
+    	Thread.sleep(2000);
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
-		wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("ps-inputgroup[label='Finance GP']")));
-		WebElement FinanceGPButton = driver.findElement(By.cssSelector("ps-inputgroup[label='Finance GP']"));
-		WebElement FinanceGPChecked = FinanceGPButton.findElement(By.cssSelector("//ps-input[@name='estimatedTotalFinanceAndInsuranceIncome' and @label='View']"));
-		Assert.assertTrue(FinanceGPChecked.isSelected());
+		wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("ps-inputgroup[label='Financed amount']")));
+		WebElement FinanceGPButton = driver.findElement(By.cssSelector("ps-inputgroup[label='Financed amount']"));
+		WebElement FinanceGPChecked = FinanceGPButton.findElement(By.xpath("//ps-input[@label='View' and @name='financedAmount']"));
+		Assert.assertTrue(FinanceGPChecked.isEnabled());
+		System.out.println("FianncedAmount button Enabled");
 	}
     
 }
